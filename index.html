@@ -23,11 +23,20 @@
             padding: 10px 20px;
             font-size: 18px;
             margin: 5px;
+            
+        }
+        .header{
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
     </style>
 </head>
 <body>
-    <h3 class="section-content">Alpine JS Counter</h3>
+    <h3 class="header">Alpine JS Counter</h3>
     <div x-data="{ count: 2 }" class="section-content">
         <h1 class="counter" x-text="count"></h1>
         <div>
